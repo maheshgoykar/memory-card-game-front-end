@@ -3,7 +3,7 @@ import axios from "axios";
 export const register =  async (credentials)=>
 {
     return await axios.post(
-        `http://localhost:3000/user/register`,
+        `https://back-end-mah7.onrender.com/user/register`,
         credentials,
         {
             headers: {
